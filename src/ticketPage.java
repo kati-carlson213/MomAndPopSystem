@@ -57,14 +57,14 @@ public class ticketPage extends JPanel {
 
         ticketResult = new JLabel();
         ticketResult.setBounds(180, 200, 350, 280);
-        ticketResult.setFont(new java.awt.Font("Segoe UI", 1, 20));
+        ticketResult.setFont(new java.awt.Font("Segoe UI", 1, 17));
         ticketResult.setForeground(new java.awt.Color(154, 126, 126));
 
 
-        ticketResult.setHorizontalAlignment(SwingConstants.CENTER);
+        ticketResult.setHorizontalAlignment(SwingConstants.LEFT);
         ticketResult.setVerticalAlignment(SwingConstants.TOP);
         ticketResult.setVerticalTextPosition(SwingConstants.TOP);
-        ticketResult.setHorizontalTextPosition(SwingConstants.CENTER);
+        ticketResult.setHorizontalTextPosition(SwingConstants.LEFT);
         ticketResult.setOpaque(true);
 
         add(ticketResult);
