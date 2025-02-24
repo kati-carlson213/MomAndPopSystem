@@ -46,7 +46,7 @@ public class InsertOrderIntoDatabase {
         try {
             // Load the certificate (public key) from server-cert.pem file
             CertificateFactory certFactory = CertificateFactory.getInstance("X.509");
-            FileInputStream fis = new FileInputStream("C:\\Users\\katie\\IdeaProjects\\SQL_DatabaseConnection\\server-cert.pem");
+            FileInputStream fis = new FileInputStream("C:\\Users\\katie\\mySQLCertificateFiles\\server-cert.pem");
 
             X509Certificate cert = (X509Certificate) certFactory.generateCertificate(fis);
             fis.close();
